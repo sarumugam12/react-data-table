@@ -1,0 +1,48 @@
+.welcome-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/oip.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* white card */
+.welcome-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  width: 320px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.welcome-card h1 {
+  margin-bottom: 10px;
+}
+
+.welcome-card p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.welcome-card button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #8f3cff;
+  color: white;
+}
+
+.welcome-card button:hover {
+  background: #7327e8;
+}
